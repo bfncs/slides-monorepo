@@ -2,7 +2,8 @@
   "name": "slides-monorepo",
   "private": true,
   "scripts": {
-    "start": "reveal-md -w ./slides.md"
+    "start": "reveal-md -w ./slides.md",
+    "build": "reveal-md --static docs slides.md"
   },
   "dependencies": {
     "reveal-md": "^0.4.2"
