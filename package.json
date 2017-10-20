@@ -1,0 +1,10 @@
+{
+  "name": "slides-monorepo",
+  "private": true,
+  "scripts": {
+    "start": "reveal-md -w ./slides.md"
+  },
+  "dependencies": {
+    "reveal-md": "^0.4.2"
+  }
+}
